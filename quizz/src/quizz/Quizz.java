@@ -38,14 +38,9 @@ public class Quizz {
                 arrfeligreses[x]=new feligreses(nombreDelFeligres, id, diezmo);
                 gananciaDeLaIglesia = gananciaDeLaIglesia + diezmo;
                 igle = igle +gananciaDeLaIglesia;
-                diez = diez + diezmo; 
-                
+                diez = diez + diezmo;
             }
-            
             JOptionPane.showMessageDialog(null, "Las ganancias de la iglesia son de " +igle+ "doalres" + "\n|" + "El monto a pagar a la munincipalidad es de " + igle * 0.09 + "dolares" + "\n" + "El monto para la iglesia es de " + igle * 0.21 + "solares" + "\n" + "La ganancia del pastor es de " +  igle * 0.70 + "dolares");
-            
-            
         }
     }
-    
 }

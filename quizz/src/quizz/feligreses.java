@@ -18,6 +18,17 @@ public class feligreses {
         this.id = id;
         this.diezmo = diezmo;
     }
+    
+    public feligreses diezmoBuscar (feligreses[] arrfeligreses, int diezmo){
+        feligreses result = null;
+        for (int i = 0; i < cantidadDeFeligreses; i++) {
+            
+        }
+        
+    return result;
+
+    }
+
 
     public String getNombreDelFeligres() {
         return nombreDelFeligres;
